@@ -25,7 +25,7 @@ golem::fill_desc(
   author_first_name = "Mislav", # Your First Name
   author_last_name = "Sagovac", # Your Last Name
   author_email = "mislav.sagovac@contentio.biz", # Your Email
-  repo_url = NULL # The URL of the GitHub Repo (optional)
+  repo_url = "https://github.com/MislavSag/cgsdeltadash.git" # The URL of the GitHub Repo (optional)
 )
 
 ## Set {golem} options ----
@@ -37,7 +37,7 @@ usethis::use_mit_license("CGS Delta") # You can set another license here
 usethis::use_readme_rmd(open = FALSE)
 # Note that `contact` is required since usethis version 2.1.5
 # If your {usethis} version is older, you can remove that param
-usethis::use_code_of_conduct(contact = "Golem User")
+usethis::use_code_of_conduct(contact = "CGS Delta")
 usethis::use_lifecycle_badge("Experimental")
 usethis::use_news_md(open = FALSE)
 
